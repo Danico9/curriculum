@@ -55,12 +55,29 @@ All content lives in `src/data/cv.js`. To update the CV, edit only that file —
 
 ## Available Scripts
 ```bash
-npm start    # Dev server on http://localhost:3000
-npm run build  # Production build to /build
+npm start        # Dev server on http://localhost:3000
+npm run build    # Production build to /build
+npm run deploy   # Build + publish to GitHub Pages
 ```
 
 ## Deployment
-Previously deployed to Firebase Hosting (mycvdancisbla.web.app). Can be redeployed with `firebase deploy` from the project root after `npm run build`.
+Deployed on **GitHub Pages**: https://danico9.github.io/curriculum/
+
+Update workflow:
+```bash
+git add .
+git commit -m "descripción"
+git push
+npm run deploy
+```
 
 ## PDF Download
-The file `CV_Daniel_Ciscar_QA.pdf` must be placed in the `public/` folder for the download button in the Hero section to work. Copy from root: `cp CV_Daniel_Ciscar_QA.pdf public/`.
+- File lives in `public/CV_Daniel_Ciscar_QA.pdf` — served as static asset.
+- In `Hero.jsx`, the href uses `process.env.PUBLIC_URL` to resolve the correct path both in local and on GitHub Pages (where the site lives under `/curriculum/`, not at root):
+  ```jsx
+  href={`${process.env.PUBLIC_URL}/CV_Daniel_Ciscar_QA.pdf`}
+  ```
+- **Never use a plain `/CV_Daniel_Ciscar_QA.pdf` path** — it breaks on GitHub Pages because it resolves to the domain root instead of `/curriculum/`.
+
+## .nojekyll
+`public/.nojekyll` is an empty file that disables Jekyll processing on GitHub Pages. Without it, GitHub may transform or ignore certain static files (like the PDF). Do not remove it.

@@ -66,7 +66,7 @@ function Hero() {
 
         <div className="hero__actions">
           <a href="#sobre-mi" className="btn btn--primary">Ver perfil</a>
-          <a href="/CV_Daniel_Ciscar_QA.pdf" download className="btn btn--outline">
+          <a href={`${process.env.PUBLIC_URL}/CV_Daniel_Ciscar_QA.pdf`} download className="btn btn--outline">
             <IconDownload /> Descargar CV
           </a>
         </div>
