@@ -13,8 +13,8 @@ export const cv = {
       url: "https://github.com/Danico9",
     },
     web: {
-      label: "mycvdancisbla.web.app",
-      url: "https://mycvdancisbla.web.app",
+      label: "danico9.github.io/curriculum",
+      url: "https://danico9.github.io/curriculum/",
     },
   },
 

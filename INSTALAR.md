@@ -28,10 +28,10 @@ Se abre automáticamente en `http://localhost:3000`
 
 ## 3. Publicar en GitHub Pages
 
-### 3.1 — Instalar gh-pages (solo la primera vez)
+### 3.1 — Instalar dependencias (incluye gh-pages, ya configurado)
 
 ```bash
-npm install --save-dev gh-pages
+npm install
 ```
 
 ### 3.2 — Crear el repositorio en GitHub
