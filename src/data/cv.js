@@ -19,7 +19,7 @@ export const cv = {
   },
 
   summary:
-    "QA Engineer con experiencia en automatización de pruebas end-to-end, testing de APIs y aseguramiento de la calidad del software en el sector sanitario digital. Especializado en plataformas de gestión hospitalaria (HIS) y registro médico electrónico (EMR). Dominio de herramientas como Cypress, Playwright, Postman, Cucumber y Gherkin para la definición y ejecución de pruebas automatizadas bajo metodología BDD. Certificado ISTQB Foundation Level 4.0. Experiencia en gestión de incidencias con JIRA, validación de datos en bases de datos, integración continua y trabajo en equipo bajo metodologías ágiles.",
+    "QA Engineer con experiencia en automatización de pruebas end-to-end, testing de APIs y aseguramiento de la calidad del software en el sector sanitario digital. Especializado en plataformas de gestión hospitalaria (HIS) y registro médico electrónico (EMR). Dominio de herramientas como Cypress, Playwright, Postman, Cucumber y Gherkin para la definición y ejecución de pruebas automatizadas bajo metodología BDD. Certificado ISTQB Foundation Level 4.0. Experiencia en gestión de incidencias con JIRA, validación de datos en bases de datos, integración continua y trabajo en equipo bajo metodología Scrum.",
 
   experience: [
     {
@@ -38,7 +38,7 @@ export const cv = {
         "Gestión de incidencias y seguimiento de bugs en JIRA.",
         "Pruebas funcionales, de regresión e integración del producto.",
         "Consultas y validación de datos en bases de datos (SQL).",
-        "Colaboración con equipos de desarrollo en metodologías ágiles.",
+        "Colaboración con equipos de desarrollo bajo metodología Scrum.",
         "Uso de GitLab para control de versiones y gestión del ciclo de vida del testing.",
       ],
     },
@@ -110,8 +110,10 @@ export const cv = {
   ],
 
   competencies: [
+    "Aseguramiento de la calidad (QA)",
     "Automatización de pruebas (E2E, API)",
     "Metodologías BDD / TDD",
+    "Scrum / Metodologías ágiles",
     "Diseño de planes y casos de prueba",
     "Desarrollo web y bases de datos",
     "Pruebas de regresión e integración",
