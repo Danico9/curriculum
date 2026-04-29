@@ -204,27 +204,16 @@
   padding-bottom: 4rem;
 }
 
-.hero__layout {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-}
-
-.hero__content {
-  flex: 1;
-  min-width: 0;
-}
-
 .hero__photo-wrap {
-  flex-shrink: 0;
+  margin-bottom: 2rem;
 }
 
 .hero__photo {
-  width: 260px;
-  height: 320px;
-  border-radius: 140px 140px 120px 120px;
-  object-fit: cover;
-  object-position: center top;
+  width: 180px;
+  height: 220px;
+  border-radius: 100px 100px 90px 90px;
+  object-fit: contain;
+  background: #1a2e4a;
   border: 3px solid rgba(37, 99, 235, 0.5);
   box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.12), 0 20px 40px rgba(0, 0, 0, 0.4);
   display: block;
@@ -767,29 +756,6 @@ a.hero__contact-item:hover {
     font-size: 2.75rem;
   }
 
-  .hero__layout {
-    flex-direction: column-reverse;
-    gap: 2rem;
-    text-align: center;
-  }
-
-  .hero__photo {
-    width: 180px;
-    height: 220px;
-  }
-
-  .hero__contact {
-    justify-content: center;
-  }
-
-  .hero__actions {
-    justify-content: center;
-  }
-
-  .hero__badge {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media (max-width: 480px) {

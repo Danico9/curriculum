@@ -42,51 +42,47 @@ function Hero() {
   return (
     <section id="hero" className="hero">
       <div className="hero__container container">
-        <div className="hero__layout">
-          <div className="hero__content">
-            <div className="hero__badge">
-              <span className="hero__badge-dot" />
-              {personal.title}
-            </div>
+        <div className="hero__photo-wrap">
+          <img
+            src={`${process.env.PUBLIC_URL}/foto.png`}
+            alt={personal.name}
+            className="hero__photo"
+          />
+        </div>
 
-            <h1 className="hero__name">{personal.name}</h1>
+        <div className="hero__badge">
+          <span className="hero__badge-dot" />
+          {personal.title}
+        </div>
 
-            <div className="hero__intro">
-              <p>QA Engineer en Làberit, donde aseguro la calidad de una plataforma de gestión sanitaria integral (HIS/EMR) utilizada en hospitales y clínicas. Mi día a día se centra en la automatización de pruebas E2E con Cypress y Playwright, testing de APIs con Postman, definición de escenarios BDD con Gherkin y Cucumber, y validación de datos en SQL.</p>
-              <p>Certificado ISTQB® Foundation Level 4.0. Con base técnica en desarrollo, lo que me permite colaborar estrechamente con los equipos de desarrollo y entender el software desde dentro.</p>
-              <p>Siempre buscando mejorar y crecer profesionalmente en el mundo del testing y la calidad del software.</p>
-            </div>
+        <h1 className="hero__name">{personal.name}</h1>
 
-            <div className="hero__contact">
-              <span className="hero__contact-item">
-                <IconPin /> {personal.location}
-              </span>
-              <a href={`mailto:${personal.email}`} className="hero__contact-item">
-                <IconMail /> {personal.email}
-              </a>
-              <a href={personal.linkedin.url} target="_blank" rel="noopener noreferrer" className="hero__contact-item">
-                <IconLinkedIn /> {personal.linkedin.label}
-              </a>
-              <a href={personal.github.url} target="_blank" rel="noopener noreferrer" className="hero__contact-item">
-                <IconGitHub /> {personal.github.label}
-              </a>
-            </div>
+        <div className="hero__intro">
+          <p>QA Engineer en Làberit, donde aseguro la calidad de una plataforma de gestión sanitaria integral (HIS/EMR) utilizada en hospitales y clínicas. Mi día a día se centra en la automatización de pruebas E2E con Cypress y Playwright, testing de APIs con Postman, definición de escenarios BDD con Gherkin y Cucumber, y validación de datos en SQL.</p>
+          <p>Certificado ISTQB® Foundation Level 4.0. Con base técnica en desarrollo, lo que me permite colaborar estrechamente con los equipos de desarrollo y entender el software desde dentro.</p>
+          <p>Siempre buscando mejorar y crecer profesionalmente en el mundo del testing y la calidad del software.</p>
+        </div>
 
-            <div className="hero__actions">
-              <a href="#sobre-mi" className="btn btn--primary">Ver perfil</a>
-              <a href={`${process.env.PUBLIC_URL}/CV_Daniel_Ciscar_QA.pdf`} download className="btn btn--outline">
-                <IconDownload /> Descargar CV
-              </a>
-            </div>
-          </div>
+        <div className="hero__contact">
+          <span className="hero__contact-item">
+            <IconPin /> {personal.location}
+          </span>
+          <a href={`mailto:${personal.email}`} className="hero__contact-item">
+            <IconMail /> {personal.email}
+          </a>
+          <a href={personal.linkedin.url} target="_blank" rel="noopener noreferrer" className="hero__contact-item">
+            <IconLinkedIn /> {personal.linkedin.label}
+          </a>
+          <a href={personal.github.url} target="_blank" rel="noopener noreferrer" className="hero__contact-item">
+            <IconGitHub /> {personal.github.label}
+          </a>
+        </div>
 
-          <div className="hero__photo-wrap">
-            <img
-              src={`${process.env.PUBLIC_URL}/foto.png`}
-              alt={personal.name}
-              className="hero__photo"
-            />
-          </div>
+        <div className="hero__actions">
+          <a href="#sobre-mi" className="btn btn--primary">Ver perfil</a>
+          <a href={`${process.env.PUBLIC_URL}/CV_Daniel_Ciscar_QA.pdf`} download className="btn btn--outline">
+            <IconDownload /> Descargar CV
+          </a>
         </div>
       </div>
     </section>
