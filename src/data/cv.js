@@ -19,7 +19,7 @@ export const cv = {
   },
 
   summary:
-    "QA Engineer con experiencia en automatización de pruebas end-to-end, testing de APIs y aseguramiento de la calidad del software en el sector sanitario digital. Especializado en plataformas de gestión hospitalaria (HIS) y registro médico electrónico (EMR). Dominio de herramientas como Cypress, Playwright, Postman, Cucumber y Gherkin para la definición y ejecución de pruebas automatizadas bajo metodología BDD. Certificado ISTQB Foundation Level 4.0. Experiencia en gestión de incidencias con JIRA, validación de datos en bases de datos, integración continua y trabajo en equipo bajo metodología Scrum.",
+    "QA Engineer con experiencia en automatización de pruebas end-to-end, testing de APIs y aseguramiento de la calidad del software en el sector sanitario digital. Especializado en plataformas de gestión hospitalaria (HIS) y registro médico electrónico (EMR). Dominio de herramientas como Cypress, Playwright, Postman, Cucumber y Gherkin para la definición y ejecución de pruebas automatizadas bajo metodología BDD. Certificado ISTQB Foundation Level 4.0. Experiencia en gestión de incidencias con JIRA, validación de datos en bases de datos, integración continua y trabajo en equipo bajo metodología Scrum. Experiencia en diseño de arquitecturas de automatización (Page Object Model, tres capas) y migración de suites entre frameworks.",
 
   experience: [
     {
@@ -32,7 +32,9 @@ export const cv = {
       current: true,
       highlights: [
         "QA en plataforma de gestión sanitaria integral (HIS/EMR) para hospitales y clínicas.",
-        "Automatización de pruebas E2E con Cypress y Playwright.",
+        "Migración íntegra de suite E2E de Cypress a Playwright, incluyendo rediseño de arquitectura (Page Object Model, tres capas) y reestructuración de fixtures.",
+        "Diseño de sistema de fixtures modulares con generación dinámica de datos de prueba.",
+        "Configuración de pipeline CI/CD en GitLab con paralelismo, retries automáticos y publicación de evidencias.",
         "Testing de APIs REST con Postman.",
         "Definición de escenarios de prueba con Gherkin y ejecución con Cucumber.",
         "Gestión de incidencias y seguimiento de bugs en JIRA.",
@@ -100,7 +102,7 @@ export const cv = {
   ],
 
   skills: {
-    qa: ["Cypress", "Playwright", "Postman", "Cucumber", "Gherkin (BDD)", "Mecha", "JIRA", "SQL"],
+    qa: ["Cypress", "Playwright", "Postman", "Cucumber", "Gherkin (BDD)", "Mocha", "JIRA", "SQL", "Page Object Model", "Node.js", "GitLab CI/CD"],
     dev: ["Java", "Spring Boot", "Git", "GitLab", "Docker", "GitFlow", "HTML/CSS", "JavaScript", "Python", "Firebase", "APIs REST"],
   },
 
@@ -118,5 +120,7 @@ export const cv = {
     "Desarrollo web y bases de datos",
     "Pruebas de regresión e integración",
     "Control de versiones y CI/CD",
+    "Arquitectura de suites de automatización",
+    "Migración entre frameworks de testing",
   ],
 };
