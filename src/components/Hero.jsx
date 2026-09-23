@@ -58,9 +58,9 @@ function Hero() {
         <h1 className="hero__name">{personal.name}</h1>
 
         <div className="hero__intro">
-          <p>QA Engineer en Làberit, donde aseguro la calidad de una plataforma de gestión sanitaria integral (HIS/EMR) utilizada en hospitales y clínicas. Mi día a día se centra en la automatización de pruebas E2E con Cypress y Playwright, testing de APIs con Postman, definición de escenarios BDD con Gherkin y Cucumber, y validación de datos en SQL.</p>
-          <p>Certificado ISTQB® Foundation Level 4.0. Con base técnica en desarrollo, lo que me permite colaborar estrechamente con los equipos de desarrollo y entender el software desde dentro.</p>
-          <p>Siempre buscando mejorar y crecer profesionalmente en el mundo del testing y la calidad del software.</p>
+          <p>QA Engineer en Làberit, donde aseguro la calidad de una plataforma de gestión sanitaria integral (HIS/EHR) utilizada en hospitales y clínicas.</p>
+          <p>Mi día a día combina la automatización E2E con Playwright y JavaScript, la ejecución de las suites en pipelines de GitLab CI, las pruebas de integración HL7 entre sistemas sanitarios y el diagnóstico de incidencias a partir de logs y datos en SQL.</p>
+          <p>Certificado ISTQB® Foundation Level 4.0. Mi base en desarrollo backend me permite entender el software desde dentro y trabajar codo con codo con los equipos de desarrollo.</p>
         </div>
 
         <div className="hero__contact">

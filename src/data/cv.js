@@ -19,7 +19,7 @@ export const cv = {
   },
 
   summary:
-    "QA Engineer con experiencia en automatización de pruebas end-to-end, testing de APIs y aseguramiento de la calidad del software en el sector sanitario digital. Especializado en plataformas de gestión hospitalaria (HIS) y registro médico electrónico (EMR). Dominio de herramientas como Cypress, Playwright, Postman, Cucumber y Gherkin para la definición y ejecución de pruebas automatizadas bajo metodología BDD. Certificado ISTQB Foundation Level 4.0. Experiencia en gestión de incidencias con JIRA, validación de datos en bases de datos, integración continua y trabajo en equipo bajo metodología Scrum. Experiencia en diseño de arquitecturas de automatización (Page Object Model, tres capas) y migración de suites entre frameworks.",
+    "QA Engineer especializado en software sanitario (HIS/EHR), con experiencia en automatización de pruebas end-to-end, testing de APIs e integraciones HL7. Lideré la migración de la suite E2E de Cypress a Playwright, rediseñando su arquitectura (Page Object Model, tres capas) y configurando su ejecución en pipelines de GitLab CI. Valido el intercambio de mensajes HL7 entre sistemas y su reflejo en base de datos mediante SQL, y analizo logs del backend para identificar el origen de los fallos. Certificado ISTQB Foundation Level 4.0. Experiencia en BDD con Gherkin y Cucumber, gestión de incidencias con JIRA y trabajo bajo metodología Scrum.",
 
   experience: [
     {
@@ -31,17 +31,16 @@ export const cv = {
       type: "Híbrido",
       current: true,
       highlights: [
-        "QA en plataforma de gestión sanitaria integral (HIS/EMR) para hospitales y clínicas.",
-        "Migración íntegra de suite E2E de Cypress a Playwright, incluyendo rediseño de arquitectura (Page Object Model, tres capas) y reestructuración de fixtures.",
+        "QA en plataforma de gestión sanitaria integral (HIS/EHR) para hospitales y clínicas.",
+        "Migración íntegra de suite E2E de Cypress a Playwright (JavaScript), incluyendo rediseño de arquitectura (Page Object Model, tres capas) y reestructuración de fixtures.",
         "Diseño de sistema de fixtures modulares con generación dinámica de datos de prueba.",
         "Configuración de pipeline CI/CD en GitLab con paralelismo, retries automáticos y publicación de evidencias.",
+        "Pruebas de integración HL7 entre sistemas sanitarios: validación de mensajes, revisión de mapeos y verificación de datos en base de datos con SQL.",
+        "Diagnóstico de incidencias mediante análisis de logs del backend en entornos, documentando la causa para desarrollo y arquitectura.",
         "Testing de APIs REST con Postman.",
-        "Definición de escenarios de prueba con Gherkin y ejecución con Cucumber.",
-        "Gestión de incidencias y seguimiento de bugs en JIRA.",
+        "Definición de escenarios BDD con Gherkin y ejecución con Cucumber.",
         "Pruebas funcionales, de regresión e integración del producto.",
-        "Consultas y validación de datos en bases de datos (SQL).",
-        "Colaboración con equipos de desarrollo bajo metodología Scrum.",
-        "Uso de GitLab para control de versiones y gestión del ciclo de vida del testing.",
+        "Gestión de incidencias en JIRA y colaboración con desarrollo bajo metodología Scrum.",
       ],
     },
     {
@@ -75,6 +74,14 @@ export const cv = {
   education: [
     {
       id: 1,
+      degree: "CFGS Desarrollo de Aplicaciones Web (DAW)",
+      institution: "Título de Técnico Superior",
+      location: null,
+      period: "2024 – 2026",
+      notes: null,
+    },
+    {
+      id: 2,
       degree: "Grado en Ingeniería Informática",
       institution: "UNED",
       location: "Valencia",
@@ -82,7 +89,7 @@ export const cv = {
       notes: "Último curso. Pendiente: 5 asignaturas y Trabajo Fin de Grado.",
     },
     {
-      id: 2,
+      id: 3,
       degree: "Transformación Digital – Agentes del Cambio",
       institution: "EOI",
       location: null,
@@ -102,8 +109,8 @@ export const cv = {
   ],
 
   skills: {
-    qa: ["Cypress", "Playwright", "Postman", "Cucumber", "Gherkin (BDD)", "Mocha", "JIRA", "SQL", "Page Object Model", "Node.js", "GitLab CI/CD"],
-    dev: ["Java", "Spring Boot", "Git", "GitLab", "Docker", "GitFlow", "HTML/CSS", "JavaScript", "Python", "Firebase", "APIs REST"],
+    qa: ["Playwright", "JavaScript", "Cypress", "Postman", "GitLab CI/CD", "HL7", "SQL", "Page Object Model", "Cucumber", "Gherkin (BDD)", "Mocha", "Node.js", "JIRA"],
+    dev: ["Java", "Spring Boot", "Git", "GitLab", "Docker", "GitFlow", "HTML/CSS", "Python", "Firebase", "APIs REST"],
   },
 
   languages: [
@@ -122,5 +129,7 @@ export const cv = {
     "Control de versiones y CI/CD",
     "Arquitectura de suites de automatización",
     "Migración entre frameworks de testing",
+    "Pruebas de integración HL7 / interoperabilidad sanitaria",
+    "Diagnóstico de incidencias y análisis de logs",
   ],
 };
