@@ -71,6 +71,29 @@ export const cv = {
     },
   ],
 
+  projects: [
+    {
+      id: 1,
+      name: "playboard-report",
+      tagline: "Dashboard para analizar el histórico de reportes de Playwright",
+      period: "Sep 2026 – Actualidad",
+      description:
+        "El reporte HTML de Playwright solo muestra una ejecución. playboard-report reúne todos los reportes y enseña cómo evolucionan por día, semana, mes y año. Se puede usar en local con Node.js, como ejecutable o desde la versión web, que procesa los reportes en el navegador sin subirlos a ningún sitio.",
+      highlights: [
+        "Detección de tests flaky, los que más fallan y los más lentos, además de fallos nuevos y tests arreglados respecto a la ejecución anterior del mismo entorno.",
+        "Agrupación de errores por mensaje, locator y línea, con su evolución y aviso de los que ya no aparecen.",
+        "Detalle de cada ejecución con capturas, vídeo, reintentos y acceso a la traza, e informe exportable a PDF.",
+        "Importación de artefactos del CI y detección automática de entornos.",
+        "Salud por módulo funcional, calendario por % de éxito y visor de notas en Markdown.",
+      ],
+      tech: ["React", "Vite", "Node.js", "Recharts", "Service Workers", "Playwright"],
+      links: {
+        demo: "https://danico9.github.io/playboard-report/",
+        repo: "https://github.com/Danico9/playboard-report",
+      },
+    },
+  ],
+
   education: [
     {
       id: 1,

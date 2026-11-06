@@ -447,6 +447,34 @@ a.hero__contact-item:hover {
   margin-top: 0.25em;
 }
 
+/* ===== PROJECTS ===== */
+.projects {
+  padding: 0 0 5rem;
+  background: var(--bg);
+}
+
+.project-card {
+  border-left-color: var(--primary);
+}
+
+.project-card__description {
+  font-size: 0.9375rem;
+  color: var(--gray-700);
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.project-card__tech {
+  margin-top: 1.25rem;
+}
+
+.project-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
 /* ===== SKILLS ===== */
 .skills {
   padding: 5rem 0;

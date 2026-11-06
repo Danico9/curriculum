@@ -23,6 +23,7 @@ src/
     Hero.jsx         # Full-height hero (name, title, contact links)
     About.jsx        # Professional profile + key competencies
     Experience.jsx   # Work history timeline
+    Projects.jsx     # Personal projects (description, tech, demo + repo links)
     Skills.jsx       # Tech skills (QA + Dev) + languages
     Education.jsx    # Education + ISTQB certification
     Footer.jsx       # Footer with contact links
@@ -39,6 +40,7 @@ public/
 - `#hero` — Hero section
 - `#sobre-mi` — About / Perfil Profesional
 - `#experiencia` — Experiencia Profesional
+- `#proyectos` — Proyectos Personales
 - `#habilidades` — Habilidades / Skills
 - `#formacion` — Formación & Certificaciones
 - `#contacto` — Footer / Contacto
